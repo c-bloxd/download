@@ -10,8 +10,8 @@ function downloadPack() {
 
 function downloadAssetPack() {
   const link = document.createElement("a");
-  link.href = "assets/tpacks/C_Bloxds Essentials.zip";
-  link.download = "C_Bloxd Essentials.zip";
+  link.href = "https://github.com/c-bloxd/download/releases/download/1.0/C_Bloxds.Essentials.V1.zip";
+  link.download = "C_Bloxd Essentials (V1).zip";
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
