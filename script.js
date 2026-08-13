@@ -14,7 +14,7 @@ async function incrementCounter(counterName) {
 async function downloadPack() {
     const count = await incrementCounter("TpackDCounter");
     const link = document.createElement("a");
-    link.href = "assets/tpacks/C_Fault 8x.zip";
+    link.href = "assets/tpacks/C_Fault%208x.zip";
     link.download = "C_Fault 8x.zip";
     document.body.appendChild(link);
     link.click();
