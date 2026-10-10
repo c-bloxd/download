@@ -93,8 +93,9 @@ body {
     border-radius: 0.7rem;
     width: 60px;
     height: 60px;
-    color: #000000;
+    color: #180b00;
     font-size: 45px;
+    text-shadow: 0 1px 9px rgba(0, 0, 0, 0.4);
     cursor: pointer;
     transition: .25s;
 }
@@ -115,6 +116,7 @@ body {
     color: #5865F2;
     font-size: 50px;
     cursor: pointer;
+    text-shadow: 0 1px 9px rgba(0, 0, 0, 0.4);
     transition: .25s;
 }
 
@@ -134,6 +136,7 @@ body {
     color: #ff0000;
     font-size: 50px;
     cursor: pointer;
+    text-shadow: 0 1px 9px rgba(0, 0, 0, 0.4);
     transition: .25s;
 }
 
@@ -250,7 +253,24 @@ body {
     padding: 3px 6px;
     border-radius: 5px;
     background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.045);
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
     pointer-events: none;
     user-select: none;
+}
+
+.last-updated {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 10px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    pointer-events: none;
+    user-select: none;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
 }
